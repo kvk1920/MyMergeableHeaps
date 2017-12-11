@@ -13,6 +13,7 @@ public:
     virtual void meld(IHeap &) = 0;
     virtual bool empty() const = 0;
     virtual void clear() = 0;
+    virtual ~IHeap() {}
 };
 
 #endif //HEAPS_IHEAP_H
